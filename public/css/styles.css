@@ -61,3 +61,22 @@ footer{
   background: #222;
   text-align: center;
 }
+.table-striped{
+    color:white;
+}
+ul{
+  list-style: square inside url("../img/favicon.ico");
+  margin: 3px;
+  padding: 0;
+}
+.table-striped>thead{
+ background-color: #262626;
+}
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+   background-color:#4f4f4f; // Choose your own color here
+ }
+.table-striped>tbody>tr:nth-child(even)>td, 
+.table-striped>tbody>tr:nth-child(even)>th {
+   background-color:#606060; // Choose your own color here
+ }

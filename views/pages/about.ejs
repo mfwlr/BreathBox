@@ -10,13 +10,49 @@
    
         <%- contentFor('body') %>
          <div class="jumbotron text-center">
-           <ul>
-           <li>To connect to your BreathBox unit, connect to the BreathBox wireless.  The password is breathboxtest.</li>
-           <li>To play the BreathBox trivia game, navigate to the BreathBox Game link.</li>
-	   <li>To request a trivia question, hit the Request Trivia button - only one user may do this at a time.</li>
-	   <li>Before being allowed to submit trivia, you must blow on the BreathBox breath sensor. Please hold the button on the box when you blow or the reading won't be accepted.</li>
-	   <li>A green highlight of your answer means you answered the question correctly - a red means your answer was wrong, while the correct will be highlighted in blue.</li>
-	   <li>Periodically, you will be asked to refresh the game screen as users connect, disconnect, and answer questions.</li>
-	   </ul>
+        
+<table class="table table-bordered table-striped">
+	<thead>
+		<tr>
+			<th>
+				Topic
+			</th>
+			<th>
+				Information
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+				BreathBox Unit Operation
+			</td>
+			<td>
+				<ul>
+				<li>Upon powering up the BreathBox unit, a BreathBox wireless connection will be broadcast.  Use this to connect to the BreathBox application.</li>
+				<li>Please give as much as two minutes time for the unit to finish booting.</li>
+				<li>If problems persist, please contact your assigned PNAH LLC Operator for assitance.</li>
+           			<li>The password for BreathBox wireless is breathboxtest.</li>
+				<li>To play the Trivia game, you must navigate to the BreathBox Game/BBTG screen.</li>
+				<li>Periodically, you will be asked to refresh the game screen as users connect, disconnect, and answer questions.</li>
+				<li>In the event of connection failure, power down and restart the BreathBox unit.</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Trivia Gameplay
+			</td>
+			<td>
+				<ul>
+				 <li>To request a trivia question, hit the Request Trivia button - only one user may do this at a time.</li>
+	   			<li>Before being allowed to submit trivia, you must blow on the BreathBox breath sensor. Please hold the button on the box when you blow or the reading won't be accepted.</li>
+	   			<li>A green highlight of your answer means you answered the question correctly - a red means your answer was wrong, while the correct will be highlighted in blue.</li>
+				</ul>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
          </div>
      
